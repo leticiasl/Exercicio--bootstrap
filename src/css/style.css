@@ -1,0 +1,62 @@
+.navbar{  
+  background-color: beige;
+}
+
+.navbar-brand {
+  font-size: 3.25rem;
+}
+
+.navbar-light .navbar-brand {
+  color: #ff0000;
+  text-shadow: 6px -8px 3px #ffe907;
+  font-family: 'McLaren', cursive;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: -0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 2.2;
+  color: darkred;
+}
+
+element.style {
+  text-align: justify;
+}
+
+.img-thumbnail {
+  padding: 0.8rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.card-text:last-child {
+  text-align: justify;
+}
+
+.card-img-top {
+  width: 83%;
+}
+
+p {
+  text-align: justify;
+}
+
+
+footer p {
+  text-align: center;
+  background-color: beige;
+  color: black;
+  margin: 15px;
+  padding: 4px 0;
+}
+
+@media(max-width: 534px){ 
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+       line-height: 1.2;
+  }
+}
